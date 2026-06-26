@@ -6,4 +6,12 @@ public class App {
         System.out.println("change line!");
         System.out.println("first change");
         }
+    
+    class Student {
+    	String name;
+    	public Student (String name) {
+    		this.name = name;
+    	}
+    	
+    }
 }
