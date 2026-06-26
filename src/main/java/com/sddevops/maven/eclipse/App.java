@@ -9,10 +9,12 @@ public class App {
     
     class Student {
     	String name;
-    	int age;
-    	public Student (String name, int age) {
+    	String password;
+      int age;
+    	public Student (String name, String password, int age) {
     		this.name = name;
-    		this.age = age;
+    		this.password = password;
+    	  this.age = age;
     	}
     	
     }
